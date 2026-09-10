@@ -4,7 +4,8 @@ import Hero from './components/hero/Hero'
 import Portfolio from './components/portfolio/Portfolio'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
+import UpperFooter from './components/footer/UpperFooter'
+import LowerFooter from './components/footer/LowerFooter'
 
 export default function App() {
   return <>
@@ -13,6 +14,7 @@ export default function App() {
     {/* <Portfolio/> */}
     <About/>
     <Contact/>
-    <Footer/>
+    <UpperFooter/>
+    <LowerFooter/>
   </>
 }

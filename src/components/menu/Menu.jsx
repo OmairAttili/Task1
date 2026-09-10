@@ -2,6 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from '@mui/material';
 
 export default function BasicMenu() {
   const id = React.useId();
@@ -39,9 +40,15 @@ export default function BasicMenu() {
           },
         }}
       >
-        <MenuItem href='#' onClick={handleClose}>PORTFOLIO</MenuItem>
-        <MenuItem href='#' onClick={handleClose}>ABOUT</MenuItem>
-        <MenuItem href='#' onClick={handleClose}>CONTACT</MenuItem>
+        <Link href='#About' sx={{textDecoration:'none',color:'black'}}>
+        <MenuItem onClick={handleClose}>PORTFOLIO</MenuItem>
+        </Link>
+        <Link href='#' sx={{textDecoration:'none',color:'black'}}>
+        <MenuItem onClick={handleClose}>CONTACT</MenuItem>
+        </Link>
+        <Link href='#About' sx={{textDecoration:'none',color:'black'}}>
+        <MenuItem onClick={handleClose}>ABOUT</MenuItem>
+        </Link>
       </Menu>
     </div>
   );

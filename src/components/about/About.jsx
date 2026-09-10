@@ -4,7 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import React from 'react'
 
 export default function About() {
-  return <Box sx={{bgcolor:'#1abc9c',mt:12}}>
+  return <Box sx={{bgcolor:'#1abc9c',mt:12}} id="About">
     <Container sx={{py:12,display:'flex',flexDirection:'column',gap:2,justifyContent:'center',alignItems:'center', color:'white',textAlign:'center'}}>
       <Typography sx={{fontSize:48,fontFamily:'Montserrat',fontWeight:700}}>ABOUT</Typography>
       <DividerComp/>
