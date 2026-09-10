@@ -11,7 +11,7 @@ export default function App() {
   return <>
     <Navbar/>
     <Hero/>
-    {/* <Portfolio/> */}
+    <Portfolio/>
     <About/>
     <Contact/>
     <UpperFooter/>
