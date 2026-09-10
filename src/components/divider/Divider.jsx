@@ -18,7 +18,7 @@ const Root = styled('div')(({ theme }) => ({
   },
 }));
 
-export default function DividerText() {
+export default function DividerComp() {
 
   return (
     <Root>
