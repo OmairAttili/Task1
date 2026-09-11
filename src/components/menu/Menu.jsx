@@ -40,7 +40,7 @@ export default function BasicMenu() {
           },
         }}
       >
-        <Link href='#About' sx={{textDecoration:'none',color:'black'}}>
+        <Link href='#Portfolio' sx={{textDecoration:'none',color:'black'}}>
         <MenuItem onClick={handleClose}>PORTFOLIO</MenuItem>
         </Link>
         <Link href='#' sx={{textDecoration:'none',color:'black'}}>

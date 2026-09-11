@@ -3,7 +3,7 @@ import { AppBar, Box, Container, Link,} from '@mui/material'
 import BasicMenu from '../menu/Menu'
 
 export default function Navbar() {
-  return <AppBar sx={{bgcolor:'#2c3e50',position:'sticky'}} name="nav">
+  return <AppBar sx={{bgcolor:'#2c3e50',position:'sticky',width:'100%'}} name="nav">
     <Container sx={{p:2,display:'flex',justifyContent:'space-between',alignItems:'center',fontFamily:'Montserrat'}}>
       <Link href='nav' underline='none' 
       sx={{fontSize:{sm:28,xs:18},color:'white',fontWeight:700}}>START BOOTSTRAP</Link>

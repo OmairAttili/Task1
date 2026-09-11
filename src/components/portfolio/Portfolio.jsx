@@ -21,7 +21,7 @@ export default function Portfolio() {
         <Box sx={{display:'grid',gridTemplateColumns:{md:'repeat(3,1fr)',sm:'repeat(2,1fr)',xs:'repeat(1,1fr)'},gap:3,mt:3}}>
         <Box sx={{position:'relative',"&:hover .overlay":{opacity:0.9,transitionDuration:'300ms',transitionDelay:'100ms'}}}>
           <Link href="#">
-          <img src={Cabin}width='100%' height='100%' style={{borderRadius:8}}/>
+          <img alt="Cabin image" src={Cabin}width='100%' height='100%' style={{borderRadius:8}}/>
           <Box className="overlay" sx={{bgcolor:'#1abc9c',color:'white',position:'absolute',top:0,width:'100%',height:'100%',display:'flex',alignItems:'center',justifyContent:'center',opacity:0,}}>
             <AddIcon style={{fontSize:70,fontWidth:700}}/>
           </Box>
@@ -29,7 +29,7 @@ export default function Portfolio() {
         </Box>
         <Box sx={{position:'relative',"&:hover .overlay":{opacity:0.9,transitionDuration:'300ms',transitionDelay:'100ms'}}}>
           <Link href="#">
-          <img src={Cake}width='100%' height='100%' style={{borderRadius:8}}/>
+          <img alt="Cake image" src={Cake}width='100%' height='100%' style={{borderRadius:8}}/>
           <Box className="overlay" sx={{bgcolor:'#1abc9c',color:'white',position:'absolute',top:0,width:'100%',height:'100%',display:'flex',alignItems:'center',justifyContent:'center',opacity:0,}}>
             <AddIcon style={{fontSize:70,fontWidth:700}}/>
           </Box>
@@ -37,7 +37,7 @@ export default function Portfolio() {
         </Box>
         <Box sx={{position:'relative',"&:hover .overlay":{opacity:0.9,transitionDuration:'300ms',transitionDelay:'100ms'}}}>
           <Link href="#">
-          <img src={Circus}width='100%' height='100%' style={{borderRadius:8}}/>
+          <img alt="Circus image" src={Circus}width='100%' height='100%' style={{borderRadius:8}}/>
           <Box className="overlay" sx={{bgcolor:'#1abc9c',color:'white',position:'absolute',top:0,width:'100%',height:'100%',display:'flex',alignItems:'center',justifyContent:'center',opacity:0,}}>
             <AddIcon style={{fontSize:70,fontWidth:700}}/>
           </Box>
@@ -45,7 +45,7 @@ export default function Portfolio() {
         </Box>
         <Box sx={{position:'relative',"&:hover .overlay":{opacity:0.9,transitionDuration:'300ms',transitionDelay:'100ms'}}}>
           <Link href="#">
-          <img src={Game}width='100%' height='100%' style={{borderRadius:8}}/>
+          <img alt="Game image" src={Game}width='100%' height='100%' style={{borderRadius:8}}/>
           <Box className="overlay" sx={{bgcolor:'#1abc9c',color:'white',position:'absolute',top:0,width:'100%',height:'100%',display:'flex',alignItems:'center',justifyContent:'center',opacity:0,}}>
             <AddIcon style={{fontSize:70,fontWidth:700}}/>
           </Box>
@@ -53,7 +53,7 @@ export default function Portfolio() {
         </Box>
         <Box sx={{position:'relative',"&:hover .overlay":{opacity:0.9,transitionDuration:'300ms',transitionDelay:'100ms'}}}>
           <Link href="#">
-          <img src={Safe}width='100%' height='100%' style={{borderRadius:8}}/>
+          <img alt="Safe image" src={Safe}width='100%' height='100%' style={{borderRadius:8}}/>
           <Box className="overlay" sx={{bgcolor:'#1abc9c',color:'white',position:'absolute',top:0,width:'100%',height:'100%',display:'flex',alignItems:'center',justifyContent:'center',opacity:0,}}>
             <AddIcon style={{fontSize:70,fontWidth:700}}/>
           </Box>
@@ -61,7 +61,7 @@ export default function Portfolio() {
         </Box>
         <Box sx={{position:'relative',"&:hover .overlay":{opacity:0.9,transitionDuration:'300ms',transitionDelay:'100ms'}}}>
           <Link href="#">
-          <img src={Submarine}width='100%' height='100%' style={{borderRadius:8}}/>
+          <img alt="Submarine image" src={Submarine}width='100%' height='100%' style={{borderRadius:8}}/>
           <Box className="overlay" sx={{bgcolor:'#1abc9c',color:'white',position:'absolute',top:0,width:'100%',height:'100%',display:'flex',alignItems:'center',justifyContent:'center',opacity:0,}}>
             <AddIcon style={{fontSize:70,fontWidth:700}}/>
           </Box>
