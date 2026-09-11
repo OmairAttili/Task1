@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link href='#About' underline='none' color='white' sx={{p:2,":hover":{color:'#1abc9c'},transitionDuration:'200ms'}}>ABOUT</Link>
         <Link href='#' underline='none' color='white' sx={{p:2,":hover":{color:'#1abc9c'},transitionDuration:'200ms'}}>CONTACT</Link>
       </Box>
-      <BasicMenu sx={{display:{md:'none'}}}/>
+      <BasicMenu/>
     </Container>
   </AppBar>
 }

@@ -2,7 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import { Link } from '@mui/material';
+import { Link ,Box} from '@mui/material';
 
 export default function BasicMenu() {
   const id = React.useId();
@@ -18,7 +18,7 @@ export default function BasicMenu() {
   };
 
   return (
-    <div>
+    <Box sx={{display:{md:'none'}}}>
       <Button
         id={buttonId}
         aria-controls={open ? menuId : undefined}
@@ -50,6 +50,6 @@ export default function BasicMenu() {
         <MenuItem onClick={handleClose}>ABOUT</MenuItem>
         </Link>
       </Menu>
-    </div>
+    </Box>
   );
 }
