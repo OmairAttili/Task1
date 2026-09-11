@@ -11,7 +11,7 @@ export default function Navbar() {
       sx={{display:{xs:'none',md:'flex'},justifyContent:'center',alignItems:'center',gap:5,fontWeight:700,fontSize:16}}>
         <Link href='#Portfolio' underline='none' color='white' sx={{p:2,":hover":{color:'#1abc9c'},transitionDuration:'200ms'}}>PORTFOLIO</Link>
         <Link href='#About' underline='none' color='white' sx={{p:2,":hover":{color:'#1abc9c'},transitionDuration:'200ms'}}>ABOUT</Link>
-        <Link href='#' underline='none' color='white' sx={{p:2,":hover":{color:'#1abc9c'},transitionDuration:'200ms'}}>CONTACT</Link>
+        <Link href='#Contact' underline='none' color='white' sx={{p:2,":hover":{color:'#1abc9c'},transitionDuration:'200ms'}}>CONTACT</Link>
       </Box>
       <BasicMenu/>
     </Container>
